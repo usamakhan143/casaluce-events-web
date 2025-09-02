@@ -24,16 +24,16 @@ function App() {
               alt="Casaluce Events Logo" 
               className="h-24 w-24 mb-4"
             />
-            <h1 className="text-white text-3xl md:text-4xl font-light font-seasons text-center">
+            <h1 className="text-white text-3xl md:text-4xl font-normal font-seasons text-center">
               Casaluce Events
             </h1>
-            <p className="text-white text-xs md:text-sm uppercase tracking-widest text-center mt-2 mb-6">
+            <p className="text-white text-xs md:text-sm uppercase tracking-widest text-center mt-2 mb-6 font-inter">
               Crafting Events You'll Love
             </p>
             
             {/* Navigation with better spacing between menu items */}
             <nav className="w-full">
-              <div className="text-center text-white text-sm uppercase tracking-widest">
+              <div className="text-center text-white text-sm uppercase tracking-widest font-gotham">
                 <span className="hidden lg:inline space-x-4">
                   <span className="mx-2">HOME</span>
                   <span className="mx-2">|</span>
@@ -62,10 +62,10 @@ function App() {
         {/* Hero Content */}
         <div className="relative flex-1 flex flex-col items-center justify-center text-white px-4">
           <div className="text-center max-w-4xl">
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-light mb-4 font-seasons">
+            <h2 className="text-4xl md:text-6xl lg:text-7xl font-normal mb-4 font-seasons">
               <span className="block">Transforming Your</span>
-              <span className="block font-light">Dreams into delightful</span>
-              <span className="block text-5xl md:text-6xl font-bold italic">Realities</span>
+              <span className="block font-normal font-footlight">Dreams into delightful</span>
+              <span className="block text-5xl md:text-6xl font-bold italic font-seasons-bold">Realities</span>
             </h2>
           </div>
           
@@ -87,17 +87,17 @@ function App() {
               />
             </div>
             <div className="order-1 lg:order-2 text-center lg:text-left">
-              <p className="text-lg uppercase tracking-widest mb-4 text-charcoal">Welcome to</p>
-              <h2 className="text-4xl md:text-6xl font-light mb-6 text-charcoal font-seasons">
+              <p className="text-lg uppercase tracking-widest mb-4 text-charcoal font-inter">Welcome to</p>
+              <h2 className="text-4xl md:text-6xl font-normal mb-6 text-charcoal font-seasons">
                 Casaluce Events
               </h2>
-              <h3 className="text-3xl md:text-4xl font-bold italic mb-6 text-charcoal font-seasons">
+              <h3 className="text-3xl md:text-4xl font-bold italic mb-6 text-charcoal font-seasons-bold">
                 Where Every Celebration is a Masterpiece
               </h3>
-              <p className="text-lg uppercase tracking-wide mb-8 text-charcoal">
+              <p className="text-lg uppercase tracking-wide mb-8 text-charcoal font-gotham">
                 Creating Joyful Memories, One Event at a Time
               </p>
-              <p className="text-lg leading-relaxed text-charcoal">
+              <p className="text-lg leading-relaxed text-charcoal font-gotham">
                 Welcome to the vibrant world of Casaluce Events, where your event dreams are not just planned but passionately brought to life. Our mission is to create events that are not only memorable but also reflect the unique essence of each client we work with. Whether it's weaving the romance into your wedding day, infusing energy into corporate events, or adding a splash of fun to private parties, we're dedicated to making every occasion extraordinary.
               </p>
             </div>
@@ -109,7 +109,7 @@ function App() {
       <section className="bg-sage py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="section-title text-white font-seasons font-light">
+            <h2 className="section-title text-white font-seasons-light font-normal">
               What makes us different?
             </h2>
           </div>
@@ -122,8 +122,8 @@ function App() {
                 alt="Icon" 
                 className="w-16 h-16 mx-auto mb-6"
               />
-              <h3 className="text-xl font-bold mb-4">Tailored Experiences:</h3>
-              <p className="text-lg leading-relaxed">
+              <h3 className="text-xl font-bold mb-4 font-gotham">Tailored Experiences:</h3>
+              <p className="text-lg leading-relaxed font-gotham">
                 We believe that no two events should be the same. Our approach is to understand your unique story, preferences, and aspirations. We then craft a customized experience that aligns with your vision, ensuring that your event is as unique as you are.
               </p>
             </div>
@@ -135,8 +135,8 @@ function App() {
                 alt="Icon" 
                 className="w-16 h-16 mx-auto mb-6"
               />
-              <h3 className="text-xl font-bold mb-4">Experienced Hands at Work:</h3>
-              <p className="text-lg leading-relaxed">
+              <h3 className="text-xl font-bold mb-4 font-gotham">Experienced Hands at Work:</h3>
+              <p className="text-lg leading-relaxed font-gotham">
                 Boasting [X] years in the event planning industry, our team brings a wealth of knowledge, skills, and insights to your event. We're equipped to handle any challenge and transform it into an opportunity to excel.
               </p>
             </div>
@@ -148,8 +148,8 @@ function App() {
                 alt="Icon" 
                 className="w-16 h-16 mx-auto mb-6"
               />
-              <h3 className="text-xl font-bold mb-4">Unwavering Attention to Detail:</h3>
-              <p className="text-lg leading-relaxed">
+              <h3 className="text-xl font-bold mb-4 font-gotham">Unwavering Attention to Detail:</h3>
+              <p className="text-lg leading-relaxed font-gotham">
                 Our team pays meticulous attention to every element of your event. From the overarching theme to the nuances of the event flow, every aspect is thoughtfully planned and executed. This commitment to detail ensures a seamless and stress-free experience for you and your guests.
               </p>
             </div>
@@ -161,8 +161,8 @@ function App() {
                 alt="Icon" 
                 className="w-16 h-16 mx-auto mb-6"
               />
-              <h3 className="text-xl font-bold mb-4">Creative Flair and Innovation:</h3>
-              <p className="text-lg leading-relaxed">
+              <h3 className="text-xl font-bold mb-4 font-gotham">Creative Flair and Innovation:</h3>
+              <p className="text-lg leading-relaxed font-gotham">
                 At Casaluce Events, we constantly stay abreast of the latest trends and innovations in event planning. Our creative team brings fresh ideas and perspectives, ensuring your event is not just current but also has a unique twist that sets it apart.
               </p>
             </div>
@@ -174,8 +174,8 @@ function App() {
                 alt="Icon" 
                 className="w-16 h-16 mx-auto mb-6"
               />
-              <h3 className="text-xl font-bold mb-4">Responsive and Reliable Communication:</h3>
-              <p className="text-lg leading-relaxed">
+              <h3 className="text-xl font-bold mb-4 font-gotham">Responsive and Reliable Communication:</h3>
+              <p className="text-lg leading-relaxed font-gotham">
                 We pride ourselves on being responsive and accessible to our clients. Our communication lines are always open, ensuring you feel supported and informed throughout the planning process.
               </p>
             </div>
@@ -187,8 +187,8 @@ function App() {
                 alt="Icon" 
                 className="w-16 h-16 mx-auto mb-6"
               />
-              <h3 className="text-xl font-bold mb-4">Sustainable and Ethical Practices:</h3>
-              <p className="text-lg leading-relaxed">
+              <h3 className="text-xl font-bold mb-4 font-gotham">Sustainable and Ethical Practices:</h3>
+              <p className="text-lg leading-relaxed font-gotham">
                 In today's world, sustainability is key. We strive to incorporate eco-friendly and ethical practices in our event planning, ensuring that your celebration is not only beautiful but also responsible.
               </p>
             </div>
@@ -211,11 +211,11 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-lg uppercase tracking-widest mb-4 text-charcoal">Our Philosophy:</p>
-              <h2 className="text-4xl md:text-6xl font-light mb-6 text-charcoal font-seasons">
+              <p className="text-lg uppercase tracking-widest mb-4 text-charcoal font-gotham">Our Philosophy:</p>
+              <h2 className="text-4xl md:text-6xl font-normal mb-6 text-charcoal font-seasons-light">
                 Your Vision, Our Mission
               </h2>
-              <div className="space-y-6 text-lg leading-relaxed text-charcoal">
+              <div className="space-y-6 text-lg leading-relaxed text-charcoal font-gotham">
                 <p>
                   At Casaluce Events, we don't just plan events; we create experiences that resonate and leave a lasting impression. Our philosophy revolves around understanding your vision and turning it into a reality. We work tirelessly to ensure that every element, from the venue to the decor, the food to the entertainment, comes together perfectly to create an event that is both stunning and uniquely yours.
                 </p>
@@ -239,11 +239,11 @@ function App() {
       <section className="bg-brown py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="section-title text-white font-seasons">Our Services</h2>
-            <p className="section-subtitle text-white">
+            <h2 className="section-title text-white font-seasons-light">Our Services</h2>
+            <p className="section-subtitle text-white font-gotham">
               Your Event, Your Way: Tailored Celebrations for Every Milestone
             </p>
-            <p className="text-lg text-white max-w-4xl mx-auto">
+            <p className="text-lg text-white max-w-4xl mx-auto font-gotham">
               At Casaluce Events, we understand that each event is a unique tapestry woven with personal dreams and professional touches. Here's how we cater to different types of events:
             </p>
           </div>
@@ -258,8 +258,8 @@ function App() {
                   className="w-full h-80 object-cover rounded-t-3xl"
                 />
               </div>
-              <button className="btn-primary mb-4">Weddings</button>
-              <p className="text-white text-lg leading-relaxed">
+              <button className="btn-primary mb-4 font-seasons-light">Weddings</button>
+              <p className="text-white text-lg leading-relaxed font-gotham">
                 Imagine your perfect wedding day, and let us bring it to life. From fairy-tale venues to heartfelt vows, every moment will be crafted to reflect your love story. Our services include venue scouting, vendor coordination, theme and decor design, itinerary planning, and on-the-day event management.
               </p>
             </div>
@@ -273,8 +273,8 @@ function App() {
                   className="w-full h-80 object-cover rounded-t-3xl"
                 />
               </div>
-              <button className="btn-primary mb-4">Corporate Events</button>
-              <p className="text-white text-lg leading-relaxed">
+              <button className="btn-primary mb-4 font-seasons-light">Corporate Events</button>
+              <p className="text-white text-lg leading-relaxed font-gotham">
                 Elevate your business gatherings with our professional event planning services. We specialize in organizing conferences, meetings, seminars, and corporate celebrations. Our approach combines your brand's ethos with our planning expertise.
               </p>
             </div>
@@ -288,8 +288,8 @@ function App() {
                   className="w-full h-80 object-cover rounded-t-3xl"
                 />
               </div>
-              <button className="btn-primary mb-4">Special Occasions</button>
-              <p className="text-white text-lg leading-relaxed">
+              <button className="btn-primary mb-4 font-seasons-light">Special Occasions</button>
+              <p className="text-white text-lg leading-relaxed font-gotham">
                 Life is full of reasons to celebrate, and we're here to make each one unforgettable. Birthdays, anniversaries, retirements, or just because - no matter the occasion, we bring joy and creativity to your special day.
               </p>
             </div>
@@ -307,15 +307,15 @@ function App() {
       <section className="bg-cream py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="section-title text-charcoal font-seasons">Portfolio</h2>
-            <p className="section-subtitle text-charcoal">
+            <h2 className="section-title text-charcoal font-seasons-light">Portfolio</h2>
+            <p className="section-subtitle text-charcoal font-gotham">
               Our Work Speaks for Itself: A Gallery of Celebrated Events
             </p>
             <div className="space-y-4 text-charcoal max-w-4xl mx-auto">
-              <p className="text-xl">
+              <p className="text-xl font-gotham">
                 Delve into the world of events we've crafted and draw inspiration for your own celebration.
               </p>
-              <p className="text-lg">
+              <p className="text-lg font-gotham">
                 Our portfolio is a testament to our passion for event planning and our commitment to our clients. Each image in this gallery is a story of a dream turned into reality, showcasing our ability to cater to a diverse range of styles and preferences.
               </p>
             </div>
@@ -324,8 +324,8 @@ function App() {
           {/* Wedding Elegance */}
           <div className="mb-16">
             <div className="text-center mb-8">
-              <button className="btn-outline mb-4">Wedding Elegance</button>
-              <p className="text-charcoal text-lg">
+              <button className="btn-outline mb-4 font-seasons-light">Wedding Elegance</button>
+              <p className="text-charcoal text-lg font-gotham">
                 From rustic countryside affairs to elegant urban celebrations, these photos highlight our versatility in creating the perfect ambiance for your big day.
               </p>
             </div>
@@ -339,8 +339,8 @@ function App() {
           {/* Corporate Chic */}
           <div className="mb-16">
             <div className="text-center mb-8">
-              <button className="btn-outline mb-4">Corporate Chic</button>
-              <p className="text-charcoal text-lg">
+              <button className="btn-outline mb-4 font-seasons-light">Corporate Chic</button>
+              <p className="text-charcoal text-lg font-gotham">
                 See how we transform business meetings and conferences into engaging, sophisticated experiences.
               </p>
             </div>
@@ -354,8 +354,8 @@ function App() {
           {/* Celebration Highlights */}
           <div className="mb-16">
             <div className="text-center mb-8">
-              <button className="btn-outline mb-4">Celebration Highlights</button>
-              <p className="text-charcoal text-lg">
+              <button className="btn-outline mb-4 font-seasons-light">Celebration Highlights</button>
+              <p className="text-charcoal text-lg font-gotham">
                 Whether it's a milestone birthday or a golden anniversary, these images showcase how we infuse fun, flair, and finesse into every special occasion.
               </p>
             </div>
@@ -367,7 +367,7 @@ function App() {
           </div>
           
           <div className="text-center">
-            <p className="text-charcoal text-lg max-w-4xl mx-auto">
+            <p className="text-charcoal text-lg max-w-4xl mx-auto font-gotham">
               Each event we plan is a unique journey, and this portfolio is just a glimpse into the possibilities that await with Casaluce Events. Let these moments inspire you, and imagine what we can create together for your next event.
             </p>
           </div>
@@ -378,11 +378,11 @@ function App() {
       <section className="bg-sage py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="section-title text-white font-seasons">How We Work</h2>
-            <p className="section-subtitle text-white">
+            <h2 className="section-title text-white font-seasons-light">How We Work</h2>
+            <p className="section-subtitle text-white font-gotham">
               Your Event Planning Journey with Us: From Vision to Victory
             </p>
-            <p className="text-lg text-white max-w-4xl mx-auto">
+            <p className="text-lg text-white max-w-4xl mx-auto font-gotham">
               Embarking on an event planning journey with Casaluce Events is a seamless and enjoyable experience. Here's how we collaborate with you at every step:
             </p>
           </div>
@@ -390,24 +390,24 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Step 1 */}
             <div className="text-center text-white">
-              <button className="btn-primary mb-6">Free Consultation</button>
-              <p className="text-lg leading-relaxed">
+              <button className="btn-primary mb-6 font-seasons-light">Free Consultation</button>
+              <p className="text-lg leading-relaxed font-gotham">
                 Your journey begins with a complimentary 15-minute consultation. This is where we listen to your ideas, understand your vision, and discuss how we can bring it to life.
               </p>
             </div>
             
             {/* Step 2 */}
             <div className="text-center text-white">
-              <button className="btn-primary mb-6">Detailed Planning</button>
-              <p className="text-lg leading-relaxed">
+              <button className="btn-primary mb-6 font-seasons-light">Detailed Planning</button>
+              <p className="text-lg leading-relaxed font-gotham">
                 Following our initial meeting, we develop a comprehensive plan covering every aspect of your event. This includes venue selection, theme development, vendor management, and logistics planning. We keep you informed and involved at every stage.
               </p>
             </div>
             
             {/* Step 3 */}
             <div className="text-center text-white">
-              <button className="btn-primary mb-6">Event Day Coordination</button>
-              <p className="text-lg leading-relaxed">
+              <button className="btn-primary mb-6 font-seasons-light">Event Day Coordination</button>
+              <p className="text-lg leading-relaxed font-gotham">
                 When your big day arrives, our team is on the ground, working diligently to ensure everything unfolds seamlessly. From managing vendors to handling any last-minute adjustments, we're there to guarantee your event is executed flawlessly.
               </p>
             </div>
@@ -429,13 +429,13 @@ function App() {
       <section className="bg-cream py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-light mb-6 text-charcoal font-seasons">
-              Pricing & Packages
+            <h2 className="text-4xl md:text-6xl font-normal mb-6 text-charcoal font-seasons-light">
+              Pricing <span className="font-footlight">&</span> Packages
             </h2>
-            <p className="section-subtitle text-charcoal">
+            <p className="section-subtitle text-charcoal font-gotham">
               Customized Options for Every Event and Every Budget
             </p>
-            <p className="text-lg text-charcoal max-w-4xl mx-auto mb-12">
+            <p className="text-lg text-charcoal max-w-4xl mx-auto mb-12 font-gotham">
               At Casaluce Events, we understand that every event is as unique as the individuals hosting it. That's why our pricing is as personalized as our event planning services. Here's how we work together to determine the perfect package for your needs:
             </p>
           </div>
@@ -449,8 +449,8 @@ function App() {
                   <path d="M162.584 1.34473C180.995 1.34473 198.713 4.99519 215.042 11.4863C215.259 11.6039 215.469 11.6652 215.625 11.7109C215.805 11.7633 215.922 11.7999 216.035 11.8662L216.064 11.8828L216.093 11.8955C276.958 37.6735 321.966 105.446 323.515 184.906L323.543 186.786V460.398H1.45239V186.989C2.32238 106.105 46.8639 37.4708 108.897 12.1016L108.896 12.1006C125.357 5.60372 144.178 1.3448 162.584 1.34473Z" stroke="#454648" fill="none"/>
                 </svg>
                 <div className="absolute inset-0 flex flex-col justify-end p-6">
-                  <h3 className="text-xl font-light mb-3 text-charcoal font-seasons">Essential Package</h3>
-                  <p className="text-charcoal leading-relaxed text-xs">
+                  <h3 className="text-xl font-normal mb-3 text-charcoal font-seasons-light">Essential Package</h3>
+                  <p className="text-charcoal leading-relaxed text-xs font-gotham">
                     Ideal for clients seeking support with fundamental aspects of event planning. This package includes venue selection assistance, vendor recommendations, and day-of coordination.
                   </p>
                 </div>
@@ -464,8 +464,8 @@ function App() {
                   <path d="M162.086 1.34473C180.497 1.34473 198.215 4.99519 214.544 11.4863C214.761 11.6039 214.971 11.6652 215.127 11.7109C215.307 11.7633 215.424 11.7999 215.538 11.8662L215.566 11.8828L215.595 11.8955C276.46 37.6735 321.468 105.446 323.017 184.906L323.045 186.786V460.398H0.95459V186.989C1.82457 106.105 46.3661 37.4708 108.399 12.1016L108.398 12.1006C124.859 5.60372 143.68 1.3448 162.086 1.34473Z" stroke="#454648" fill="none"/>
                 </svg>
                 <div className="absolute inset-0 flex flex-col justify-end p-6">
-                  <h3 className="text-xl font-light mb-3 text-charcoal font-seasons">Premium Package</h3>
-                  <p className="text-charcoal leading-relaxed text-xs">
+                  <h3 className="text-xl font-normal mb-3 text-charcoal font-seasons-light">Premium Package</h3>
+                  <p className="text-charcoal leading-relaxed text-xs font-gotham">
                     Our most popular choice, designed for a comprehensive event planning experience. It encompasses all offerings in the Essentials Package, plus additional services like design and decor consultation, entertainment arrangements, and more.
                   </p>
                 </div>
@@ -479,8 +479,8 @@ function App() {
                   <path d="M162.589 1.34473C180.999 1.34473 198.717 4.99519 215.047 11.4863C215.264 11.6039 215.473 11.6652 215.63 11.7109C215.809 11.7633 215.926 11.7999 216.04 11.8662L216.068 11.8828L216.098 11.8955C276.963 37.6735 321.97 105.446 323.52 184.906L323.548 186.786V460.398H1.45703V186.989C2.32701 106.105 46.8685 37.4708 108.901 12.1016L108.9 12.1006C125.362 5.60372 144.182 1.3448 162.589 1.34473Z" stroke="#454648" fill="none"/>
                 </svg>
                 <div className="absolute inset-0 flex flex-col justify-end p-6">
-                  <h3 className="text-xl font-light mb-3 text-charcoal font-seasons">Luxury Experience</h3>
-                  <p className="text-charcoal leading-relaxed text-xs">
+                  <h3 className="text-xl font-normal mb-3 text-charcoal font-seasons-light">Luxury Experience</h3>
+                  <p className="text-charcoal leading-relaxed text-xs font-gotham">
                     For the ultimate in event planning, this package provides everything in the Premium Package, along with exclusive access to top-tier vendors, bespoke design services, and a dedicated event management team.
                   </p>
                 </div>
@@ -489,7 +489,7 @@ function App() {
           </div>
           
           <div className="mb-16">
-            <h3 className="text-xl uppercase tracking-widest text-center mb-12 text-charcoal">
+            <h3 className="text-xl uppercase tracking-widest text-center mb-12 text-charcoal font-gotham">
               Getting to Your Personalized Quote:
             </h3>
 
@@ -498,10 +498,10 @@ function App() {
               {/* Step 1 - Initial Consultation */}
               <div className="flex flex-col items-center">
                 <div className="w-full max-w-xs bg-transparent border border-charcoal p-6 h-80 flex flex-col justify-center text-center">
-                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight">
+                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight font-gotham">
                     Initial<br />Consultation
                   </h4>
-                  <p className="text-charcoal text-base leading-relaxed">
+                  <p className="text-charcoal text-base leading-relaxed font-gotham">
                     Start with our complimentary 15-minute consultation. Here, we'll discuss your event vision, requirements, and preferences.
                   </p>
                 </div>
@@ -510,10 +510,10 @@ function App() {
               {/* Step 2 - Understanding Your Needs */}
               <div className="flex flex-col items-center">
                 <div className="w-full max-w-xs bg-transparent border border-charcoal p-6 h-80 flex flex-col justify-center text-center">
-                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight">
+                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight font-gotham">
                     Understanding Your<br />Needs
                   </h4>
-                  <p className="text-charcoal text-base leading-relaxed">
+                  <p className="text-charcoal text-base leading-relaxed font-gotham">
                     Based on our initial consultation, we'll gather information about the size, scope, and complexity of your event.
                   </p>
                 </div>
@@ -522,10 +522,10 @@ function App() {
               {/* Step 3 - Customized Proposal */}
               <div className="flex flex-col items-center">
                 <div className="w-full max-w-xs bg-transparent border border-charcoal p-6 h-80 flex flex-col justify-center text-center">
-                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight">
+                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight font-gotham">
                     Customized<br />Proposal
                   </h4>
-                  <p className="text-charcoal text-base leading-relaxed">
+                  <p className="text-charcoal text-base leading-relaxed font-gotham">
                     We will then create a customized proposal for you, outlining the services that best fit your event's requirements and your budget.
                   </p>
                 </div>
@@ -537,10 +537,10 @@ function App() {
               {/* Step 4 - Flexible Adjustments */}
               <div className="flex flex-col items-center">
                 <div className="w-full max-w-xs bg-transparent border border-charcoal p-6 h-72 flex flex-col justify-center text-center">
-                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight">
+                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight font-gotham">
                     Flexible<br />Adjustments
                   </h4>
-                  <p className="text-charcoal text-base leading-relaxed">
+                  <p className="text-charcoal text-base leading-relaxed font-gotham">
                     We understand that plans can evolve. Our proposals are flexible, and we're happy to adjust the scope of services to better suit your changing needs and budget.
                   </p>
                 </div>
@@ -560,10 +560,10 @@ function App() {
               {/* Step 5 - Transparent Pricing Philosophy */}
               <div className="flex flex-col items-center">
                 <div className="w-full max-w-xs bg-transparent border border-charcoal p-6 h-72 flex flex-col justify-center text-center">
-                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight">
+                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight font-gotham">
                     Transparent Pricing<br />Philosophy
                   </h4>
-                  <p className="text-charcoal text-base leading-relaxed">
+                  <p className="text-charcoal text-base leading-relaxed font-gotham">
                     Our pricing model is built on transparency. You will receive a clear, itemized breakdown of all costs, ensuring you understand exactly what you're paying for.
                   </p>
                 </div>
@@ -580,7 +580,7 @@ function App() {
             >
               <div className="absolute inset-0 bg-black bg-opacity-40 rounded-lg"></div>
               <div className="relative z-10">
-                <p className="text-white text-xl mb-6">
+                <p className="text-white text-xl mb-6 font-gotham">
                   Ready to Get Started?<br />
                   Schedule your free consultation and receive your personalized event planning proposal.
                 </p>
@@ -606,40 +606,40 @@ function App() {
             </div>
             
             <div className="text-white">
-              <h2 className="section-title text-white font-seasons mb-8">Happy Clients</h2>
-              <p className="section-subtitle text-white mb-8">
+              <h2 className="section-title text-white font-seasons-light mb-8">Happy Clients</h2>
+              <p className="section-subtitle text-white mb-8 font-gotham">
                 What They're Saying: Testimonials that Speak Volumes
               </p>
-              <p className="text-lg mb-8">
+              <p className="text-lg mb-8 font-gotham">
                 At Casaluce Events, our clients' satisfaction is the heartbeat of our business. Here are some of the kind words shared by those who have experienced our services:
               </p>
               
               <div className="space-y-8">
                 <div>
-                  <p className="text-lg italic mb-4">
+                  <p className="text-lg italic mb-4 font-gotham">
                     "Casaluce Events transformed our wedding into a fairytale. Every detail was taken care of, leaving us to simply enjoy our day. We couldn't have asked for more!"
                   </p>
-                  <p className="text-sm uppercase tracking-widest">-CLIENT NAME</p>
+                  <p className="text-sm uppercase tracking-widest font-gotham">-CLIENT NAME</p>
                   <hr className="border-white my-4 w-32" />
                 </div>
                 
                 <div>
-                  <p className="text-lg italic mb-4">
+                  <p className="text-lg italic mb-4 font-gotham">
                     "The professionalism and creativity Casaluce Events brought to our annual conference were outstanding. From planning to execution, everything was flawless."
                   </p>
-                  <p className="text-sm uppercase tracking-widest">-CLIENT NAME</p>
+                  <p className="text-sm uppercase tracking-widest font-gotham">-CLIENT NAME</p>
                   <hr className="border-white my-4 w-32" />
                 </div>
                 
                 <div>
-                  <p className="text-lg italic mb-4">
+                  <p className="text-lg italic mb-4 font-gotham">
                     "Thanks to Casaluce Events, our family reunion was an absolute joy. The attention to detail and personal touches made it a day we will always cherish."
                   </p>
-                  <p className="text-sm uppercase tracking-widest">-CLIENT NAME</p>
+                  <p className="text-sm uppercase tracking-widest font-gotham">-CLIENT NAME</p>
                 </div>
               </div>
               
-              <p className="text-lg mt-8">
+              <p className="text-lg mt-8 font-gotham">
                 These testimonials are just a snapshot of the happy memories we've helped create. We're excited to add your story to our collection of satisfied clients.
               </p>
             </div>
@@ -651,10 +651,10 @@ function App() {
       <section className="bg-cream py-16 md:py-24">
         <div className="w-full max-w-[969px] mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-light mb-6 text-charcoal font-seasons">
-              Frequently Asked Questions (FAQs)
+            <h2 className="text-4xl md:text-6xl font-normal mb-6 text-charcoal font-seasons-light">
+              Frequently Asked Questions <span className="font-forum">(</span>FAQs<span className="font-forum">)</span>
             </h2>
-            <p className="text-lg md:text-xl uppercase tracking-widest text-center mb-8 text-charcoal">
+            <p className="text-lg md:text-xl uppercase tracking-widest text-center mb-8 text-charcoal font-gotham">
               All You Need to Know About Our Event Planning Services
             </p>
           </div>
@@ -670,8 +670,8 @@ function App() {
                 />
               </div>
               <div className="flex-1 border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
-                <h3 className="text-base font-bold mb-3 text-charcoal">Q: How early should I contact you to start planning my event?</h3>
-                <p className="text-charcoal text-sm leading-relaxed">
+                <h3 className="text-base font-bold mb-3 text-charcoal font-gotham">Q: How early should I contact you to start planning my event?</h3>
+                <p className="text-charcoal text-sm leading-relaxed font-gotham">
                   A: Ideally, we recommend reaching out at least [X months] before your event. This timeframe allows us to secure the best venues and vendors, and to plan each detail meticulously. However, we can also accommodate shorter timelines depending on the complexity and scale of your event.
                 </p>
               </div>
@@ -680,15 +680,15 @@ function App() {
             {/* Two Questions Side by Side */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
-                <h3 className="text-base font-bold mb-3 text-charcoal">Q: Can you work with my specific budget?</h3>
-                <p className="text-charcoal text-sm leading-relaxed">
+                <h3 className="text-base font-bold mb-3 text-charcoal font-gotham">Q: Can you work with my specific budget?</h3>
+                <p className="text-charcoal text-sm leading-relaxed font-gotham">
                   A: Absolutely! We believe every event can be beautiful, regardless of budget size. During our initial consultation, we'll discuss your budget and tailor our services to match it, ensuring we deliver the best possible experience within your financial parameters.
                 </p>
               </div>
 
               <div className="border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
-                <h3 className="text-base font-bold mb-3 text-charcoal">Q: Do you handle destination events?</h3>
-                <p className="text-charcoal text-sm leading-relaxed">
+                <h3 className="text-base font-bold mb-3 text-charcoal font-gotham">Q: Do you handle destination events?</h3>
+                <p className="text-charcoal text-sm leading-relaxed font-gotham">
                   A: Yes, we do! We are equipped to plan and manage events at both local and destination venues. Our team can handle the complexities of a destination event, including travel arrangements, accommodations, and local vendor coordination.
                 </p>
               </div>
@@ -697,8 +697,8 @@ function App() {
             {/* Second Image Question - Right side image */}
             <div className="flex gap-8 items-center">
               <div className="flex-1 border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
-                <h3 className="text-base font-bold mb-3 text-charcoal">Q: What types of events do you specialize in?</h3>
-                <p className="text-charcoal text-sm leading-relaxed">
+                <h3 className="text-base font-bold mb-3 text-charcoal font-gotham">Q: What types of events do you specialize in?</h3>
+                <p className="text-charcoal text-sm leading-relaxed font-gotham">
                   A: We specialize in a wide range of events including weddings, corporate events, private parties, birthdays, anniversaries, and more. Each event is unique, and we tailor our services to meet the specific needs and style of each occasion.
                 </p>
               </div>
@@ -714,15 +714,15 @@ function App() {
             {/* Two More Questions Side by Side */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
-                <h3 className="text-base font-bold mb-3 text-charcoal">Q: How do you select vendors for my event?</h3>
-                <p className="text-charcoal text-sm leading-relaxed">
+                <h3 className="text-base font-bold mb-3 text-charcoal font-gotham">Q: How do you select vendors for my event?</h3>
+                <p className="text-charcoal text-sm leading-relaxed font-gotham">
                   A: We have a curated list of trusted vendors known for their quality and reliability. We select vendors based on your event's specific needs, preferences, and budget. Our team ensures that each vendor aligns with our high standards and your event's overall theme and style.
                 </p>
               </div>
 
               <div className="border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
-                <h3 className="text-base font-bold mb-3 text-charcoal">Q: What happens if there are unexpected issues on the day of the event?</h3>
-                <p className="text-charcoal text-sm leading-relaxed">
+                <h3 className="text-base font-bold mb-3 text-charcoal font-gotham">Q: What happens if there are unexpected issues on the day of the event?</h3>
+                <p className="text-charcoal text-sm leading-relaxed font-gotham">
                   A: As experienced event planners, we are well-prepared to handle unexpected issues. We always have contingency plans in place and our team is adept at problem-solving on the spot to ensure your event runs smoothly.
                 </p>
               </div>
@@ -738,8 +738,8 @@ function App() {
                 />
               </div>
               <div className="flex-1 border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
-                <h3 className="text-base font-bold mb-3 text-charcoal">Q: Can I be involved in the planning process?</h3>
-                <p className="text-charcoal text-sm leading-relaxed">
+                <h3 className="text-base font-bold mb-3 text-charcoal font-gotham">Q: Can I be involved in the planning process?</h3>
+                <p className="text-charcoal text-sm leading-relaxed font-gotham">
                   A: Definitely! We encourage your involvement as much as you wish. Your input is valuable in making your event truly reflective of your taste and style. We provide regular updates and check-ins to ensure we are aligned with your vision.
                 </p>
               </div>
@@ -748,8 +748,8 @@ function App() {
             {/* Final Question - Right side image */}
             <div className="flex gap-8 items-center">
               <div className="flex-1 border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
-                <h3 className="text-base font-bold mb-3 text-charcoal">Q: Can you accommodate special dietary requirements for catering?</h3>
-                <p className="text-charcoal text-sm leading-relaxed">
+                <h3 className="text-base font-bold mb-3 text-charcoal font-gotham">Q: Can you accommodate special dietary requirements for catering?</h3>
+                <p className="text-charcoal text-sm leading-relaxed font-gotham">
                   A: Yes, we work closely with caterers who can accommodate a variety of dietary requirements, including vegetarian, vegan, gluten-free, kosher, halal, and any allergies. Let us know your needs, and we will ensure they are met.
                 </p>
               </div>
@@ -771,13 +771,13 @@ function App() {
           <div className="grid lg:grid-cols-3 gap-12 items-center min-h-[500px]">
             {/* Left Column - Content (wider, 2/3 width) */}
             <div className="lg:col-span-2 text-white space-y-6 text-center flex flex-col justify-center">
-              <h2 className="text-4xl md:text-6xl font-light text-white font-seasons">Get in Touch</h2>
+              <h2 className="text-4xl md:text-6xl font-normal text-white font-seasons-light">Get in Touch</h2>
 
-              <p className="text-lg md:text-xl uppercase tracking-widest text-white">
+              <p className="text-lg md:text-xl uppercase tracking-widest text-white font-gotham">
                 Let's Make Your Event Unforgettable
               </p>
 
-              <p className="text-base text-white">
+              <p className="text-base text-white font-gotham">
                 We'd love to hear about your event and how we can help make it amazing.
               </p>
 
@@ -787,7 +787,7 @@ function App() {
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
                 </div>
-                <span className="text-sm">1234-567-890</span>
+                <span className="text-sm font-gotham">1234-567-890</span>
 
                 <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center ml-8">
                   <svg className="w-5 h-5 text-sage" fill="currentColor" viewBox="0 0 20 20">
@@ -795,7 +795,7 @@ function App() {
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                   </svg>
                 </div>
-                <span className="text-sm">info@youremail.com</span>
+                <span className="text-sm font-gotham">info@youremail.com</span>
               </div>
             </div>
 
@@ -812,21 +812,21 @@ function App() {
 
               {/* Form */}
               <div className="bg-cream p-6">
-                <h3 className="text-lg uppercase tracking-widest text-center mb-6 text-charcoal">Contact Us</h3>
+                <h3 className="text-lg uppercase tracking-widest text-center mb-6 text-charcoal font-inter">Contact Us</h3>
 
                 <form className="space-y-4">
                   <div>
-                    <label className="block text-xs uppercase tracking-widest text-charcoal mb-1">Name</label>
+                    <label className="block text-xs uppercase tracking-widest text-charcoal mb-1 font-inter">Name</label>
                     <input type="text" className="w-full border border-[#737373] p-2 bg-transparent focus:outline-none focus:border-brown text-sm" />
                   </div>
 
                   <div>
-                    <label className="block text-xs uppercase tracking-widest text-charcoal mb-1">Email</label>
+                    <label className="block text-xs uppercase tracking-widest text-charcoal mb-1 font-inter">Email</label>
                     <input type="email" className="w-full border border-[#737373] p-2 bg-transparent focus:outline-none focus:border-brown text-sm" />
                   </div>
 
                   <div>
-                    <label className="block text-xs uppercase tracking-widest text-charcoal mb-1">Message</label>
+                    <label className="block text-xs uppercase tracking-widest text-charcoal mb-1 font-inter">Message</label>
                     <textarea rows="3" className="w-full border border-[#737373] p-2 bg-transparent focus:outline-none focus:border-brown resize-none text-sm"></textarea>
                   </div>
 
@@ -865,7 +865,7 @@ function App() {
               </div>
               
               <div className="text-center md:text-right">
-                <p className="text-white text-sm uppercase tracking-widest">
+                <p className="text-white text-sm uppercase tracking-widest font-gotham">
                   <span>Casaluce Events - </span>
                   <span>Where Great Events Happen</span>
                 </p>
@@ -877,7 +877,7 @@ function App() {
         {/* Bottom Footer */}
         <div className="bg-charcoal py-12">
           <div className="container mx-auto px-4">
-            <p className="text-white text-sm leading-relaxed">
+            <p className="text-white text-sm leading-relaxed font-gotham">
               <span className="font-bold">Disclaimer:</span> The content provided in this template is for informational and example purposes only. It is your responsibility to customize this material to fit your specific needs and comply with any applicable laws, regulations, or guidelines. We recommend consulting with qualified professionals for any legal, ethical, or specialized advice. Use this template at your own risk, and always perform your own due diligence.
             </p>
           </div>

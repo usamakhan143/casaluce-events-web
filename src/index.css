@@ -1,3 +1,4 @@
+@import './fonts.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,18 +23,18 @@
 
 @layer components {
   .btn-primary {
-    @apply px-8 py-3 border border-white text-white uppercase tracking-widest text-sm font-normal hover:bg-white hover:text-charcoal transition-colors duration-300 rounded-full;
+    @apply px-8 py-3 border border-white text-white uppercase tracking-widest text-sm font-normal hover:bg-white hover:text-charcoal transition-colors duration-300 rounded-full font-gotham;
   }
-  
+
   .btn-outline {
-    @apply px-8 py-3 border border-charcoal text-charcoal uppercase tracking-widest text-sm font-normal hover:bg-charcoal hover:text-white transition-colors duration-300 rounded-full;
+    @apply px-8 py-3 border border-charcoal text-charcoal uppercase tracking-widest text-sm font-normal hover:bg-charcoal hover:text-white transition-colors duration-300 rounded-full font-gotham;
   }
-  
+
   .section-title {
-    @apply text-4xl md:text-5xl lg:text-6xl font-light text-center mb-4;
+    @apply text-4xl md:text-5xl lg:text-6xl font-normal text-center mb-4 font-seasons-light;
   }
-  
+
   .section-subtitle {
-    @apply text-lg md:text-xl uppercase tracking-widest text-center mb-8;
+    @apply text-lg md:text-xl uppercase tracking-widest text-center mb-8 font-gotham;
   }
 }
