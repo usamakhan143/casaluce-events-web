@@ -489,70 +489,81 @@ function App() {
           </div>
           
           <div className="mb-16">
-            <h3 className="text-xl uppercase tracking-widest text-center mb-8 text-charcoal">
+            <h3 className="text-xl uppercase tracking-widest text-center mb-12 text-charcoal">
               Getting to Your Personalized Quote:
             </h3>
-            
+
+            {/* First row - 3 steps */}
             <div className="grid md:grid-cols-3 gap-8 mb-8">
-              {/* Step 1 */}
-              <div className="text-center">
-                <div className="bg-white border border-gray-400 p-6 h-48 flex flex-col justify-center">
-                  <h4 className="text-lg uppercase tracking-wide mb-4 text-charcoal">Initial Consultation</h4>
-                  <p className="text-charcoal">
+              {/* Step 1 - Initial Consultation */}
+              <div className="flex flex-col items-center">
+                <div className="w-full max-w-xs bg-transparent border border-charcoal p-6 h-80 flex flex-col justify-center text-center">
+                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight">
+                    Initial<br />Consultation
+                  </h4>
+                  <p className="text-charcoal text-base leading-relaxed">
                     Start with our complimentary 15-minute consultation. Here, we'll discuss your event vision, requirements, and preferences.
                   </p>
                 </div>
               </div>
-              
-              {/* Step 2 */}
-              <div className="text-center">
-                <div className="bg-white border border-gray-400 p-6 h-48 flex flex-col justify-center">
-                  <h4 className="text-lg uppercase tracking-wide mb-4 text-charcoal">Understanding Your Needs</h4>
-                  <p className="text-charcoal">
+
+              {/* Step 2 - Understanding Your Needs */}
+              <div className="flex flex-col items-center">
+                <div className="w-full max-w-xs bg-transparent border border-charcoal p-6 h-80 flex flex-col justify-center text-center">
+                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight">
+                    Understanding Your<br />Needs
+                  </h4>
+                  <p className="text-charcoal text-base leading-relaxed">
                     Based on our initial consultation, we'll gather information about the size, scope, and complexity of your event.
                   </p>
                 </div>
               </div>
-              
-              {/* Step 3 */}
-              <div className="text-center">
-                <div className="bg-white border border-gray-400 p-6 h-48 flex flex-col justify-center">
-                  <h4 className="text-lg uppercase tracking-wide mb-4 text-charcoal">Customized Proposal</h4>
-                  <p className="text-charcoal">
+
+              {/* Step 3 - Customized Proposal */}
+              <div className="flex flex-col items-center">
+                <div className="w-full max-w-xs bg-transparent border border-charcoal p-6 h-80 flex flex-col justify-center text-center">
+                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight">
+                    Customized<br />Proposal
+                  </h4>
+                  <p className="text-charcoal text-base leading-relaxed">
                     We will then create a customized proposal for you, outlining the services that best fit your event's requirements and your budget.
                   </p>
                 </div>
               </div>
             </div>
-            
-            {/* Additional Steps in 3 columns with image in the middle */}
+
+            {/* Second row - 2 steps with image in middle */}
             <div className="grid md:grid-cols-3 gap-8 items-center">
-              {/* Step 4 */}
-              <div className="text-center">
-                <div className="bg-white border border-gray-400 p-6 h-32 flex flex-col justify-center">
-                  <h4 className="text-lg uppercase tracking-wide mb-4 text-charcoal">Flexible Adjustments</h4>
-                  <p className="text-charcoal text-sm">
+              {/* Step 4 - Flexible Adjustments */}
+              <div className="flex flex-col items-center">
+                <div className="w-full max-w-xs bg-transparent border border-charcoal p-6 h-72 flex flex-col justify-center text-center">
+                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight">
+                    Flexible<br />Adjustments
+                  </h4>
+                  <p className="text-charcoal text-base leading-relaxed">
                     We understand that plans can evolve. Our proposals are flexible, and we're happy to adjust the scope of services to better suit your changing needs and budget.
                   </p>
                 </div>
               </div>
 
               {/* Premium Package Image - centered between columns */}
-              <div className="text-center">
-                <div className="bg-white border border-gray-400 p-6 h-32 flex flex-col justify-center">
+              <div className="flex flex-col items-center">
+                <div className="w-full max-w-xs h-72 flex flex-col justify-center items-center">
                   <img
                     src="https://api.builder.io/api/v1/image/assets/TEMP/6ffafc40fc229a4a052fcaf8f37c8ca8e07b5a94?width=646"
                     alt="Premium package highlight"
-                    className="w-16 h-16 mx-auto object-cover"
+                    className="w-80 h-72 object-cover rounded-lg"
                   />
                 </div>
               </div>
 
-              {/* Step 5 */}
-              <div className="text-center">
-                <div className="bg-white border border-gray-400 p-6 h-32 flex flex-col justify-center">
-                  <h4 className="text-lg uppercase tracking-wide mb-4 text-charcoal">Transparent Pricing Philosophy</h4>
-                  <p className="text-charcoal text-sm">
+              {/* Step 5 - Transparent Pricing Philosophy */}
+              <div className="flex flex-col items-center">
+                <div className="w-full max-w-xs bg-transparent border border-charcoal p-6 h-72 flex flex-col justify-center text-center">
+                  <h4 className="text-lg uppercase tracking-wide mb-6 text-charcoal font-medium leading-tight">
+                    Transparent Pricing<br />Philosophy
+                  </h4>
+                  <p className="text-charcoal text-base leading-relaxed">
                     Our pricing model is built on transparency. You will receive a clear, itemized breakdown of all costs, ensuring you understand exactly what you're paying for.
                   </p>
                 </div>
@@ -636,117 +647,117 @@ function App() {
         </div>
       </section>
 
-      {/* FAQ Section - Fixed to match Figma design with images */}
+      {/* FAQ Section - Updated to match Figma design exactly */}
       <section className="bg-cream py-16 md:py-24">
-        <div className="container mx-auto px-4">
+        <div className="w-full max-w-[969px] mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-6xl font-light mb-6 text-charcoal font-seasons">
               Frequently Asked Questions (FAQs)
             </h2>
-            <p className="section-subtitle text-charcoal">
+            <p className="text-lg md:text-xl uppercase tracking-widest text-center mb-8 text-charcoal">
               All You Need to Know About Our Event Planning Services
             </p>
           </div>
-          
+
           <div className="space-y-12">
             {/* First Question - Full width with left image */}
-            <div className="grid lg:grid-cols-4 gap-8">
-              <div className="lg:col-span-1">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/8b7e289ce91efbbe641f2c2f709509a79da8e3fd?width=839" 
-                  alt="FAQ Image 1" 
-                  className="w-full h-80 object-cover rounded-lg"
+            <div className="flex gap-8 items-center">
+              <div className="w-[237px] flex-shrink-0">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/8b7e289ce91efbbe641f2c2f709509a79da8e3fd?width=839"
+                  alt="FAQ Image 1"
+                  className="w-full h-[200px] object-cover"
                 />
               </div>
-              <div className="lg:col-span-3 border border-gray-400 p-6">
-                <h3 className="text-lg font-bold mb-3 text-charcoal">Q: How early should I contact you to start planning my event?</h3>
-                <p className="text-charcoal leading-relaxed">
+              <div className="flex-1 border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
+                <h3 className="text-base font-bold mb-3 text-charcoal">Q: How early should I contact you to start planning my event?</h3>
+                <p className="text-charcoal text-sm leading-relaxed">
                   A: Ideally, we recommend reaching out at least [X months] before your event. This timeframe allows us to secure the best venues and vendors, and to plan each detail meticulously. However, we can also accommodate shorter timelines depending on the complexity and scale of your event.
                 </p>
               </div>
             </div>
-            
+
             {/* Two Questions Side by Side */}
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="border border-gray-400 p-6">
-                <h3 className="text-lg font-bold mb-3 text-charcoal">Q: Can you work with my specific budget?</h3>
-                <p className="text-charcoal leading-relaxed">
-                  A: Absolutely! We believe every event can be beautiful, regardless of budget size. During our initial consultation, we'll discuss your budget and tailor our services to match it.
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
+                <h3 className="text-base font-bold mb-3 text-charcoal">Q: Can you work with my specific budget?</h3>
+                <p className="text-charcoal text-sm leading-relaxed">
+                  A: Absolutely! We believe every event can be beautiful, regardless of budget size. During our initial consultation, we'll discuss your budget and tailor our services to match it, ensuring we deliver the best possible experience within your financial parameters.
                 </p>
               </div>
-              
-              <div className="border border-gray-400 p-6">
-                <h3 className="text-lg font-bold mb-3 text-charcoal">Q: Do you handle destination events?</h3>
-                <p className="text-charcoal leading-relaxed">
-                  A: Yes, we do! We are equipped to plan and manage events at both local and destination venues. Our team can handle the complexities of a destination event.
+
+              <div className="border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
+                <h3 className="text-base font-bold mb-3 text-charcoal">Q: Do you handle destination events?</h3>
+                <p className="text-charcoal text-sm leading-relaxed">
+                  A: Yes, we do! We are equipped to plan and manage events at both local and destination venues. Our team can handle the complexities of a destination event, including travel arrangements, accommodations, and local vendor coordination.
                 </p>
               </div>
             </div>
-            
+
             {/* Second Image Question - Right side image */}
-            <div className="grid lg:grid-cols-4 gap-8">
-              <div className="lg:col-span-3 border border-gray-400 p-6">
-                <h3 className="text-lg font-bold mb-3 text-charcoal">Q: What types of events do you specialize in?</h3>
-                <p className="text-charcoal leading-relaxed">
+            <div className="flex gap-8 items-center">
+              <div className="flex-1 border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
+                <h3 className="text-base font-bold mb-3 text-charcoal">Q: What types of events do you specialize in?</h3>
+                <p className="text-charcoal text-sm leading-relaxed">
                   A: We specialize in a wide range of events including weddings, corporate events, private parties, birthdays, anniversaries, and more. Each event is unique, and we tailor our services to meet the specific needs and style of each occasion.
                 </p>
               </div>
-              <div className="lg:col-span-1">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/59cccaa3238ee3bc607f64bce3b2b5c047379a9c?width=839" 
-                  alt="FAQ Image 2" 
-                  className="w-full h-80 object-cover rounded-lg"
+              <div className="w-[237px] flex-shrink-0">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/59cccaa3238ee3bc607f64bce3b2b5c047379a9c?width=839"
+                  alt="FAQ Image 2"
+                  className="w-full h-[200px] object-cover"
                 />
               </div>
             </div>
-            
+
             {/* Two More Questions Side by Side */}
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="border border-gray-400 p-6">
-                <h3 className="text-lg font-bold mb-3 text-charcoal">Q: How do you select vendors for my event?</h3>
-                <p className="text-charcoal leading-relaxed">
-                  A: We have a curated list of trusted vendors known for their quality and reliability. We select vendors based on your event's specific needs and preferences.
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
+                <h3 className="text-base font-bold mb-3 text-charcoal">Q: How do you select vendors for my event?</h3>
+                <p className="text-charcoal text-sm leading-relaxed">
+                  A: We have a curated list of trusted vendors known for their quality and reliability. We select vendors based on your event's specific needs, preferences, and budget. Our team ensures that each vendor aligns with our high standards and your event's overall theme and style.
                 </p>
               </div>
-              
-              <div className="border border-gray-400 p-6">
-                <h3 className="text-lg font-bold mb-3 text-charcoal">Q: What happens if there are unexpected issues on the day of the event?</h3>
-                <p className="text-charcoal leading-relaxed">
-                  A: As experienced event planners, we are well-prepared to handle unexpected issues. We always have contingency plans in place.
+
+              <div className="border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
+                <h3 className="text-base font-bold mb-3 text-charcoal">Q: What happens if there are unexpected issues on the day of the event?</h3>
+                <p className="text-charcoal text-sm leading-relaxed">
+                  A: As experienced event planners, we are well-prepared to handle unexpected issues. We always have contingency plans in place and our team is adept at problem-solving on the spot to ensure your event runs smoothly.
                 </p>
               </div>
             </div>
-            
+
             {/* Third Image Question - Left side image */}
-            <div className="grid lg:grid-cols-4 gap-8">
-              <div className="lg:col-span-1">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/5d48b1e56bfb2f679484c6d71c6c9f849c517860?width=839" 
-                  alt="FAQ Image 3" 
-                  className="w-full h-80 object-cover rounded-lg"
+            <div className="flex gap-8 items-center">
+              <div className="w-[237px] flex-shrink-0">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/5d48b1e56bfb2f679484c6d71c6c9f849c517860?width=839"
+                  alt="FAQ Image 3"
+                  className="w-full h-[200px] object-cover"
                 />
               </div>
-              <div className="lg:col-span-3 border border-gray-400 p-6">
-                <h3 className="text-lg font-bold mb-3 text-charcoal">Q: Can I be involved in the planning process?</h3>
-                <p className="text-charcoal leading-relaxed">
+              <div className="flex-1 border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
+                <h3 className="text-base font-bold mb-3 text-charcoal">Q: Can I be involved in the planning process?</h3>
+                <p className="text-charcoal text-sm leading-relaxed">
                   A: Definitely! We encourage your involvement as much as you wish. Your input is valuable in making your event truly reflective of your taste and style. We provide regular updates and check-ins to ensure we are aligned with your vision.
                 </p>
               </div>
             </div>
-            
+
             {/* Final Question - Right side image */}
-            <div className="grid lg:grid-cols-4 gap-8">
-              <div className="lg:col-span-3 border border-gray-400 p-6">
-                <h3 className="text-lg font-bold mb-3 text-charcoal">Q: Can you accommodate special dietary requirements for catering?</h3>
-                <p className="text-charcoal leading-relaxed">
+            <div className="flex gap-8 items-center">
+              <div className="flex-1 border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
+                <h3 className="text-base font-bold mb-3 text-charcoal">Q: Can you accommodate special dietary requirements for catering?</h3>
+                <p className="text-charcoal text-sm leading-relaxed">
                   A: Yes, we work closely with caterers who can accommodate a variety of dietary requirements, including vegetarian, vegan, gluten-free, kosher, halal, and any allergies. Let us know your needs, and we will ensure they are met.
                 </p>
               </div>
-              <div className="lg:col-span-1">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/fbc4734a8e8d964fc9aba2d30938c0bc133c695a?width=839" 
-                  alt="FAQ Image 4" 
-                  className="w-full h-80 object-cover rounded-lg"
+              <div className="w-[237px] flex-shrink-0">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/fbc4734a8e8d964fc9aba2d30938c0bc133c695a?width=839"
+                  alt="FAQ Image 4"
+                  className="w-full h-[200px] object-cover"
                 />
               </div>
             </div>
@@ -754,64 +765,76 @@ function App() {
         </div>
       </section>
 
-      {/* Get in Touch Section - Updated to match Figma design */}
-      <section className="bg-sage py-16 md:py-24">
+      {/* Get in Touch Section - Updated to match Figma design exactly */}
+      <section className="bg-sage">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="section-title text-white font-seasons mb-8">Get in Touch</h2>
-            <p className="section-subtitle text-white mb-8">
-              Let's Make Your Event Unforgettable
-            </p>
-            <p className="text-lg text-white mb-8 max-w-4xl mx-auto">
-              We'd love to hear about your event and how we can help make it amazing.
-            </p>
-          </div>
-          
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="text-white space-y-6">
-              <div className="flex items-center space-x-4">
+          <div className="grid lg:grid-cols-3 gap-12 items-center min-h-[500px]">
+            {/* Left Column - Content (wider, 2/3 width) */}
+            <div className="lg:col-span-2 text-white space-y-6 text-center flex flex-col justify-center">
+              <h2 className="text-4xl md:text-6xl font-light text-white font-seasons">Get in Touch</h2>
+
+              <p className="text-lg md:text-xl uppercase tracking-widest text-white">
+                Let's Make Your Event Unforgettable
+              </p>
+
+              <p className="text-base text-white">
+                We'd love to hear about your event and how we can help make it amazing.
+              </p>
+
+              <div className="flex items-center justify-center space-x-4 pt-4">
                 <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
                   <svg className="w-5 h-5 text-sage" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
                 </div>
-                <span className="text-lg">1234-567-890</span>
-              </div>
-              
-              <div className="flex items-center space-x-4">
-                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+                <span className="text-sm">1234-567-890</span>
+
+                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center ml-8">
                   <svg className="w-5 h-5 text-sage" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                   </svg>
                 </div>
-                <span className="text-lg">info@youremail.com</span>
+                <span className="text-sm">info@youremail.com</span>
               </div>
             </div>
-            
-            <div className="bg-cream p-8 rounded-lg">
-              <h3 className="text-xl uppercase tracking-widest text-center mb-8 text-charcoal">Contact Us</h3>
-              
-              <form className="space-y-6">
-                <div>
-                  <label className="block text-xs uppercase tracking-widest text-charcoal mb-2">Name</label>
-                  <input type="text" className="w-full border border-gray-400 p-3 bg-transparent focus:outline-none focus:border-brown" />
-                </div>
-                
-                <div>
-                  <label className="block text-xs uppercase tracking-widest text-charcoal mb-2">Email</label>
-                  <input type="email" className="w-full border border-gray-400 p-3 bg-transparent focus:outline-none focus:border-brown" />
-                </div>
-                
-                <div>
-                  <label className="block text-xs uppercase tracking-widest text-charcoal mb-2">Message</label>
-                  <textarea rows="4" className="w-full border border-gray-400 p-3 bg-transparent focus:outline-none focus:border-brown resize-none"></textarea>
-                </div>
-                
-                <button type="submit" className="btn-outline w-full">
-                  Send Message
-                </button>
-              </form>
+
+            {/* Right Column - Image + Form (narrower, 1/3 width) */}
+            <div className="lg:col-span-1 flex flex-col justify-center">
+              {/* Image at top */}
+              <div className="mb-0">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/08adf92c61f98f378481b6c74fcb2a1a03c1cf48?width=972"
+                  alt="Contact Us"
+                  className="w-full h-[150px] object-cover"
+                />
+              </div>
+
+              {/* Form */}
+              <div className="bg-cream p-6">
+                <h3 className="text-lg uppercase tracking-widest text-center mb-6 text-charcoal">Contact Us</h3>
+
+                <form className="space-y-4">
+                  <div>
+                    <label className="block text-xs uppercase tracking-widest text-charcoal mb-1">Name</label>
+                    <input type="text" className="w-full border border-[#737373] p-2 bg-transparent focus:outline-none focus:border-brown text-sm" />
+                  </div>
+
+                  <div>
+                    <label className="block text-xs uppercase tracking-widest text-charcoal mb-1">Email</label>
+                    <input type="email" className="w-full border border-[#737373] p-2 bg-transparent focus:outline-none focus:border-brown text-sm" />
+                  </div>
+
+                  <div>
+                    <label className="block text-xs uppercase tracking-widest text-charcoal mb-1">Message</label>
+                    <textarea rows="3" className="w-full border border-[#737373] p-2 bg-transparent focus:outline-none focus:border-brown resize-none text-sm"></textarea>
+                  </div>
+
+                  <button type="submit" className="btn-outline w-full py-2 text-sm">
+                    Send Message
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
