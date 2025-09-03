@@ -257,30 +257,6 @@ const PackagesPage = () => {
               </div>
             </div>
 
-            {/* Mobile Package Headers - Horizontal Scroll */}
-            <div className="md:hidden mb-8 overflow-x-auto">
-              <div className="min-w-max">
-                <div className="flex gap-3">
-                  <div className="flex-shrink-0 w-40 text-center">
-                    <h3 className="text-lg font-bold text-charcoal font-gotham mb-2">Features</h3>
-                  </div>
-                  <div className="flex-shrink-0 w-32 text-center bg-white rounded-lg p-3 shadow-sm">
-                    <h3 className="text-lg font-bold text-charcoal font-seasons mb-1">Essential</h3>
-                    <p className="text-xs text-charcoal font-gotham">Intimate Gatherings</p>
-                  </div>
-                  <div className="flex-shrink-0 w-32 text-center bg-brown rounded-lg p-3 shadow-md">
-                    <div className="text-white text-xs uppercase tracking-widest mb-1 font-gotham">Most Popular</div>
-                    <h3 className="text-lg font-bold text-white font-seasons mb-1">Premium</h3>
-                    <p className="text-xs text-white font-gotham">Comprehensive Planning</p>
-                  </div>
-                  <div className="flex-shrink-0 w-32 text-center bg-white rounded-lg p-3 shadow-sm">
-                    <h3 className="text-lg font-bold text-charcoal font-seasons mb-1">Luxury</h3>
-                    <p className="text-xs text-charcoal font-gotham">Ultimate Experience</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             {/* Desktop Feature Comparison Rows */}
             <div className="hidden md:block space-y-3">
               {/* Row 1 */}
@@ -364,13 +340,33 @@ const PackagesPage = () => {
               </div>
             </div>
 
-            {/* Mobile Feature Comparison - Horizontal Scroll */}
+            {/* Mobile Feature Comparison - Single Horizontal Scroll */}
             <div className="md:hidden mb-8">
               <div className="text-center mb-4">
                 <p className="text-sm text-charcoal font-gotham italic">← Scroll horizontally to compare →</p>
               </div>
               <div className="overflow-x-auto">
                 <div className="min-w-max space-y-3">
+                  {/* Headers Row */}
+                  <div className="flex gap-3 mb-4">
+                    <div className="flex-shrink-0 w-40 text-center">
+                      <h3 className="text-lg font-bold text-charcoal font-gotham mb-2">Features</h3>
+                    </div>
+                    <div className="flex-shrink-0 w-32 text-center bg-white rounded-lg p-3 shadow-sm">
+                      <h3 className="text-lg font-bold text-charcoal font-seasons mb-1">Essential</h3>
+                      <p className="text-xs text-charcoal font-gotham">Intimate Gatherings</p>
+                    </div>
+                    <div className="flex-shrink-0 w-32 text-center bg-brown rounded-lg p-3 shadow-md">
+                      <div className="text-white text-xs uppercase tracking-widest mb-1 font-gotham">Most Popular</div>
+                      <h3 className="text-lg font-bold text-white font-seasons mb-1">Premium</h3>
+                      <p className="text-xs text-white font-gotham">Comprehensive Planning</p>
+                    </div>
+                    <div className="flex-shrink-0 w-32 text-center bg-white rounded-lg p-3 shadow-sm">
+                      <h3 className="text-lg font-bold text-charcoal font-seasons mb-1">Luxury</h3>
+                      <p className="text-xs text-charcoal font-gotham">Ultimate Experience</p>
+                    </div>
+                  </div>
+
                   {/* Row 1 */}
                   <div className="flex gap-3 bg-white rounded-lg p-3 shadow-sm">
                     <div className="flex-shrink-0 w-40 font-gotham text-charcoal font-medium text-sm">Initial Consultation</div>
