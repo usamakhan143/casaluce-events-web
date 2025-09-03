@@ -351,7 +351,7 @@ const ContactPage = () => {
                 </div>
 
                 <button className="btn-primary">
-                  <span className="underline">Schedule Office Visit</span>
+                  <span>Schedule Office Visit</span>
                 </button>
               </div>
             </div>
@@ -374,10 +374,10 @@ const ContactPage = () => {
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
               <button className="btn-outline">
-                <span className="underline">Call Now: (555) 123-4567</span>
+                <span>Call Now: (555) 123-4567</span>
               </button>
               <button className="btn-outline">
-                <span className="underline">Schedule Free Consultation</span>
+                <span>Schedule Free Consultation</span>
               </button>
             </div>
           </div>

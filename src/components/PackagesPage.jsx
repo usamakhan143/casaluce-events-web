@@ -215,7 +215,7 @@ const PackagesPage = () => {
               All packages can be customized to meet your specific needs and budget requirements.
             </p>
             <button className="btn-primary">
-              <span className="underline">Schedule Free Consultation</span>
+              <span>Schedule Free Consultation</span>
             </button>
           </div>
         </div>
@@ -456,7 +456,7 @@ const PackagesPage = () => {
                 All packages can be customized to meet your specific needs and budget requirements.
               </p>
               <button className="btn-outline">
-                <span className="underline">Compare Packages in Detail</span>
+                <span>Compare Packages in Detail</span>
               </button>
             </div>
           </div>
@@ -641,10 +641,10 @@ const PackagesPage = () => {
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
               <button className="btn-outline">
-                <span className="underline">Schedule Free Consultation</span>
+                <span>Schedule Free Consultation</span>
               </button>
               <button className="btn-outline">
-                <span className="underline">Contact Us for Custom Quote</span>
+                <span>Contact Us for Custom Quote</span>
               </button>
             </div>
           </div>

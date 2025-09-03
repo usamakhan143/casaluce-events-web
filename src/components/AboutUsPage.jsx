@@ -364,7 +364,7 @@ const AboutUsPage = () => {
               Contact us today for a complimentary consultation and let's begin the journey of bringing your event vision to life.
             </p>
             <button className="btn-outline">
-              <span className="underline">Schedule Your Free Consultation</span>
+              <span>Schedule Your Free Consultation</span>
             </button>
           </div>
         </div>

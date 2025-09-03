@@ -256,7 +256,7 @@ const HomePage = () => {
           
           <div className="text-center">
             <button className="btn-primary">
-              <span className="underline">Packages</span>
+              <span>Packages</span>
             </button>
           </div>
         </div>
@@ -544,7 +544,7 @@ const HomePage = () => {
                   Schedule your free consultation and receive your personalized event planning proposal.
                 </p>
                 <button className="btn-primary">
-                  <span className="underline">Contact Us</span>
+                  <span>Contact Us</span>
                 </button>
               </div>
             </div>

@@ -191,10 +191,10 @@ const FAQPage = () => {
 
             <div className="flex flex-col md:flex-row gap-4 justify-center">
               <Link to="/contact" className="btn-primary">
-                <span className="underline">Contact Us Today</span>
+                <span>Contact Us Today</span>
               </Link>
               <button className="btn-primary">
-                <span className="underline">Schedule Consultation</span>
+                <span>Schedule Consultation</span>
               </button>
             </div>
           </div>

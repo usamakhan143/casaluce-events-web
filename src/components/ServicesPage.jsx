@@ -406,10 +406,10 @@ const ServicesPage = () => {
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
               <button className="btn-outline">
-                <span className="underline">Schedule Free Consultation</span>
+                <span>Schedule Free Consultation</span>
               </button>
               <button className="btn-outline">
-                <span className="underline">View Our Portfolio</span>
+                <span>View Our Portfolio</span>
               </button>
             </div>
           </div>

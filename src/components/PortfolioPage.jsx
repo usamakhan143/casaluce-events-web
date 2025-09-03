@@ -327,10 +327,10 @@ const PortfolioPage = () => {
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
               <button className="btn-primary">
-                <span className="underline">Start Planning Your Event</span>
+                <span>Start Planning Your Event</span>
               </button>
               <button className="btn-primary">
-                <span className="underline">Schedule a Consultation</span>
+                <span>Schedule a Consultation</span>
               </button>
             </div>
           </div>

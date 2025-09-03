@@ -435,10 +435,10 @@ const HowWeWorkPage = () => {
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
               <button className="btn-outline">
-                <span className="underline">Schedule Free Consultation</span>
+                <span>Schedule Free Consultation</span>
               </button>
               <button className="btn-outline">
-                <span className="underline">Learn About Our Services</span>
+                <span>Learn About Our Services</span>
               </button>
             </div>
           </div>
