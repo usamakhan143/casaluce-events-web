@@ -9,10 +9,10 @@ const HomePage = () => {
       <section className="relative h-screen lg:h-[calc(100vh+100px)] bg-charcoal flex flex-col">
         {/* Background overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-20"></div>
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
-            backgroundImage: `url('https://api.builder.io/api/v1/image/assets/TEMP/b61420c94787352d69fa3de5619fd83f4b0db063?width=2732')`
+            backgroundImage: `url('/images/main-banner.jpg')`
           }}
         ></div>
         
@@ -28,9 +28,9 @@ const HomePage = () => {
             </h2>
           </div>
           
-          <button className="mt-12 btn-primary">
-            Explore More
-          </button>
+          <Link to="/contact" className="mt-12 btn-primary">
+            Request a Quote
+          </Link>
         </div>
       </section>
 
@@ -39,9 +39,9 @@ const HomePage = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/c182888d8929cf8c1416ee509b1d0e21eb251299?width=2003" 
-                alt="Event planning" 
+              <img
+                src="/images/welcome.webp"
+                alt="Event planning"
                 className="w-full h-auto rounded-lg"
               />
             </div>
@@ -57,7 +57,7 @@ const HomePage = () => {
                 Creating Joyful Memories, One Event at a Time
               </p>
               <p className="text-lg leading-relaxed text-charcoal font-gotham">
-                Welcome to the vibrant world of Casaluce Events, where your event dreams are not just planned but passionately brought to life. Our mission is to create events that are not only memorable but also reflect the unique essence of each client we work with. Whether it's weaving the romance into your wedding day, infusing energy into corporate events, or adding a splash of fun to private parties, we're dedicated to making every occasion extraordinary.
+                Welcome to the vibrant world of Casaluce Events, where your event dreams are not just planned but passionately brought to life. Our mission is to create events that are not only memorable but also reflect the unique essence of each client we work with. Whether it's weaving the romance into your wedding day, infusing energy into corporate events, adding meaningful tradition to bat mitzvahs, or creating unforgettable celebrations for birthdays and anniversaries, we're dedicated to making every occasion extraordinary.
               </p>
             </div>
           </div>
@@ -76,11 +76,11 @@ const HomePage = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Feature 1 */}
             <div className="text-center text-white">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/e7ab0fde886817b610b31b318c4b443a402b1a51?width=136" 
-                alt="Icon" 
-                className="w-16 h-16 mx-auto mb-6"
-              />
+              <div className="w-16 h-16 mx-auto mb-6 rounded-full border border-white/60 flex items-center justify-center">
+                <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </div>
               <h3 className="text-xl font-bold mb-4 font-gotham">Tailored Experiences:</h3>
               <p className="text-lg leading-relaxed font-gotham">
                 We believe that no two events should be the same. Our approach is to understand your unique story, preferences, and aspirations. We then craft a customized experience that aligns with your vision, ensuring that your event is as unique as you are.
@@ -89,24 +89,26 @@ const HomePage = () => {
             
             {/* Feature 2 */}
             <div className="text-center text-white">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/e7ab0fde886817b610b31b318c4b443a402b1a51?width=136" 
-                alt="Icon" 
-                className="w-16 h-16 mx-auto mb-6"
-              />
+              <div className="w-16 h-16 mx-auto mb-6 rounded-full border border-white/60 flex items-center justify-center">
+                <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <path d="M3 7h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </div>
               <h3 className="text-xl font-bold mb-4 font-gotham">Experienced Hands at Work:</h3>
               <p className="text-lg leading-relaxed font-gotham">
-                Boasting [X] years in the event planning industry, our team brings a wealth of knowledge, skills, and insights to your event. We're equipped to handle any challenge and transform it into an opportunity to excel.
+                With years of experience in the event planning industry, our team brings a wealth of knowledge, skills, and insights to your event. We're equipped to handle any challenge and transform it into an opportunity to excel.
               </p>
             </div>
             
             {/* Feature 3 */}
             <div className="text-center text-white">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/e7ab0fde886817b610b31b318c4b443a402b1a51?width=136" 
-                alt="Icon" 
-                className="w-16 h-16 mx-auto mb-6"
-              />
+              <div className="w-16 h-16 mx-auto mb-6 rounded-full border border-white/60 flex items-center justify-center">
+                <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <circle cx="11" cy="11" r="6" />
+                  <path d="M21 21l-4.35-4.35" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </div>
               <h3 className="text-xl font-bold mb-4 font-gotham">Unwavering Attention to Detail:</h3>
               <p className="text-lg leading-relaxed font-gotham">
                 Our team pays meticulous attention to every element of your event. From the overarching theme to the nuances of the event flow, every aspect is thoughtfully planned and executed. This commitment to detail ensures a seamless and stress-free experience for you and your guests.
@@ -115,11 +117,12 @@ const HomePage = () => {
             
             {/* Feature 4 */}
             <div className="text-center text-white">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/e7ab0fde886817b610b31b318c4b443a402b1a51?width=136" 
-                alt="Icon" 
-                className="w-16 h-16 mx-auto mb-6"
-              />
+              <div className="w-16 h-16 mx-auto mb-6 rounded-full border border-white/60 flex items-center justify-center">
+                <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <path d="M12 3a6 6 0 00-6 6c0 2.1 1.1 3.9 2.8 5l.2 1h6l.2-1A6 6 0 0018 9a6 6 0 00-6-6z" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M9 21h6M10 17h4" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </div>
               <h3 className="text-xl font-bold mb-4 font-gotham">Creative Flair and Innovation:</h3>
               <p className="text-lg leading-relaxed font-gotham">
                 At Casaluce Events, we constantly stay abreast of the latest trends and innovations in event planning. Our creative team brings fresh ideas and perspectives, ensuring your event is not just current but also has a unique twist that sets it apart.
@@ -128,11 +131,11 @@ const HomePage = () => {
             
             {/* Feature 5 */}
             <div className="text-center text-white">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/e7ab0fde886817b610b31b318c4b443a402b1a51?width=136" 
-                alt="Icon" 
-                className="w-16 h-16 mx-auto mb-6"
-              />
+              <div className="w-16 h-16 mx-auto mb-6 rounded-full border border-white/60 flex items-center justify-center">
+                <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <path d="M4 5h16v9H8l-4 4V5z" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </div>
               <h3 className="text-xl font-bold mb-4 font-gotham">Responsive and Reliable Communication:</h3>
               <p className="text-lg leading-relaxed font-gotham">
                 We pride ourselves on being responsive and accessible to our clients. Our communication lines are always open, ensuring you feel supported and informed throughout the planning process.
@@ -141,11 +144,11 @@ const HomePage = () => {
             
             {/* Feature 6 */}
             <div className="text-center text-white">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/e7ab0fde886817b610b31b318c4b443a402b1a51?width=136" 
-                alt="Icon" 
-                className="w-16 h-16 mx-auto mb-6"
-              />
+              <div className="w-16 h-16 mx-auto mb-6 rounded-full border border-white/60 flex items-center justify-center">
+                <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <path d="M5 12c6-6 14-3 14-3s-3 8-9 9c-3 .5-5-2-5-2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </div>
               <h3 className="text-xl font-bold mb-4 font-gotham">Sustainable and Ethical Practices:</h3>
               <p className="text-lg leading-relaxed font-gotham">
                 In today's world, sustainability is key. We strive to incorporate eco-friendly and ethical practices in our event planning, ensuring that your celebration is not only beautiful but also responsible.
@@ -156,11 +159,11 @@ const HomePage = () => {
       </section>
 
       {/* Image Section */}
-      <section className="bg-brown h-96">
-        <div 
+      <section className="bg-brown h-[500px]">
+        <div
           className="h-full bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://api.builder.io/api/v1/image/assets/TEMP/6f552d13bedcce5d7bad5dd01b9ad607242fdc15?width=2732')`
+            backgroundImage: `url('/images/wedding.webp')`
           }}
         ></div>
       </section>
@@ -184,9 +187,9 @@ const HomePage = () => {
               </div>
             </div>
             <div>
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/bab97470ae9a38b35a6ba33d7c013f9267cd4aa2?width=1536" 
-                alt="Event planning philosophy" 
+              <img
+                src="/images/portfolio/1.webp"
+                alt="Event planning philosophy"
                 className="w-full h-auto rounded-lg"
               />
             </div>
@@ -211,9 +214,9 @@ const HomePage = () => {
             {/* Weddings */}
             <div className="text-center">
               <div className="relative mb-6">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/5bb14e96fedcc8dc23e1d8a6104258f331fbf6e5?width=798" 
-                  alt="Wedding" 
+                <img
+                  src="/images/wedding.webp"
+                  alt="Wedding"
                   className="w-full h-80 object-cover rounded-t-3xl"
                 />
               </div>
@@ -226,9 +229,9 @@ const HomePage = () => {
             {/* Corporate Events */}
             <div className="text-center">
               <div className="relative mb-6">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/811cde8fc10efa675c04a2ae57e85def0534e093?width=798" 
-                  alt="Corporate Events" 
+                <img
+                  src="/images/portfolio/Corporate-event-planner.jpg"
+                  alt="Corporate Events"
                   className="w-full h-80 object-cover rounded-t-3xl"
                 />
               </div>
@@ -241,23 +244,23 @@ const HomePage = () => {
             {/* Special Occasions */}
             <div className="text-center">
               <div className="relative mb-6">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/357310b47927110f38ba69ae94199b9fe2bef328?width=798" 
-                  alt="Special Occasions" 
+                <img
+                  src="/images/portfolio/wedding-event.jpg"
+                  alt="Special Occasions"
                   className="w-full h-80 object-cover rounded-t-3xl"
                 />
               </div>
               <button className="btn-primary mb-4 font-seasons-light">Special Occasions</button>
               <p className="text-white text-lg leading-relaxed font-gotham">
-                Life is full of reasons to celebrate, and we're here to make each one unforgettable. Birthdays, anniversaries, retirements, or just because - no matter the occasion, we bring joy and creativity to your special day.
+                Life is full of reasons to celebrate, and we're here to make each one unforgettable. From meaningful bat mitzvahs and sweet sixteen parties to milestone birthdays, anniversaries, and family reunions - no matter the occasion, we bring joy, tradition, and creativity to your special day.
               </p>
             </div>
           </div>
           
-          <div className="text-center">
-            <button className="btn-primary">
-              <span>Packages</span>
-            </button>
+          <div className="text-center flex flex-col sm:flex-row gap-4 justify-center">
+            <Link to="/contact" className="btn-primary">
+              <span>Request a Quote</span>
+            </Link>
           </div>
         </div>
       </section>
@@ -289,9 +292,9 @@ const HomePage = () => {
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
-              <img src="https://api.builder.io/api/v1/image/assets/TEMP/887e9b1f2d60acec8b281b4812697848dfdd36ca?width=762" alt="Wedding 1" className="w-full h-80 object-cover rounded-lg" />
-              <img src="https://api.builder.io/api/v1/image/assets/TEMP/5adcd9b9eb4290f52280475a27c8afe65cc4fe38?width=762" alt="Wedding 2" className="w-full h-80 object-cover rounded-lg" />
-              <img src="https://api.builder.io/api/v1/image/assets/TEMP/811a8c00e392b6f5e0eb11c240d849489fa5061f?width=762" alt="Wedding 3" className="w-full h-80 object-cover rounded-lg" />
+              <img src="/images/portfolio/wedding-planner-crystal-day-event-planner-wedding.jpeg" alt="Wedding 1" className="w-full h-80 object-cover rounded-lg" />
+              <img src="/images/portfolio/wedding-event.jpg" alt="Wedding 2" className="w-full h-80 object-cover rounded-lg" />
+              <img src="/images/portfolio/1.webp" alt="Wedding 3" className="w-full h-80 object-cover rounded-lg" />
             </div>
           </div>
           
@@ -304,9 +307,9 @@ const HomePage = () => {
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
-              <img src="https://api.builder.io/api/v1/image/assets/TEMP/743b4df08a9cf019c1b2e573b91586c30087e0f7?width=762" alt="Corporate 1" className="w-full h-80 object-cover rounded-lg" />
-              <img src="https://api.builder.io/api/v1/image/assets/TEMP/48aa7868df75dee1dc399ed38f83e081873f254b?width=762" alt="Corporate 2" className="w-full h-80 object-cover rounded-lg" />
-              <img src="https://api.builder.io/api/v1/image/assets/TEMP/a90f80468ef4c92c8fcf245b67dffa3362d7f882?width=762" alt="Corporate 3" className="w-full h-80 object-cover rounded-lg" />
+              <img src="/images/portfolio/corporate.webp" alt="Corporate 1" className="w-full h-80 object-cover rounded-lg" />
+              <img src="/images/portfolio/corporate-events.webp" alt="Corporate 2" className="w-full h-80 object-cover rounded-lg" />
+              <img src="/images/portfolio/corporate2.jpeg" alt="Corporate 3" className="w-full h-80 object-cover rounded-lg" />
             </div>
           </div>
           
@@ -319,9 +322,9 @@ const HomePage = () => {
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
-              <img src="https://api.builder.io/api/v1/image/assets/TEMP/0a284239772719e6828bfd38af23ce2a75be9d4e?width=762" alt="Celebration 1" className="w-full h-80 object-cover rounded-lg" />
-              <img src="https://api.builder.io/api/v1/image/assets/TEMP/f2af3ea5b53419d88014c21866f1a816b0cd6b91?width=762" alt="Celebration 2" className="w-full h-80 object-cover rounded-lg" />
-              <img src="https://api.builder.io/api/v1/image/assets/TEMP/966991b8558bf114a5c7cfcb3c7f84d3ec7266fc?width=762" alt="Celebration 3" className="w-full h-80 object-cover rounded-lg" />
+              <img src="/images/portfolio/2.webp" alt="Celebration 1" className="w-full h-80 object-cover rounded-lg" />
+              <img src="/images/portfolio/3.webp" alt="Celebration 2" className="w-full h-80 object-cover rounded-lg" />
+              <img src="/images/portfolio/Event-Management-Services.jpg" alt="Celebration 3" className="w-full h-80 object-cover rounded-lg" />
             </div>
           </div>
           
@@ -379,17 +382,17 @@ const HomePage = () => {
         <div 
           className="h-full bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://api.builder.io/api/v1/image/assets/TEMP/3f8121e4857ecd7cfe777c79cfcdb825cd6fed2a?width=2789')`
+            backgroundImage: `url('/images/event.jpeg')`
           }}
         ></div>
       </section>
 
-      {/* Pricing & Packages Section - Updated to match Figma design */}
-      <section className="bg-cream py-16 md:py-24">
+      {/* Pricing & Packages Section - hidden as requested */}
+      <section className="hidden">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-6xl font-normal mb-6 text-charcoal font-seasons-light">
-              Pricing <span className="font-footlight">&</span> Packages
+              Pricing and Packages
             </h2>
             <p className="section-subtitle text-charcoal font-gotham">
               Customized Options for Every Event and Every Budget
@@ -509,7 +512,7 @@ const HomePage = () => {
               <div className="flex flex-col items-center">
                 <div className="w-full max-w-xs h-72 flex flex-col justify-center items-center">
                   <img
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/6ffafc40fc229a4a052fcaf8f37c8ca8e07b5a94?width=646"
+                    src="/images/portfolio/1.webp"
                     alt="Premium package highlight"
                     className="w-80 h-72 object-cover rounded-lg"
                   />
@@ -534,7 +537,7 @@ const HomePage = () => {
             <div 
               className="bg-cover bg-center py-16 px-8 rounded-lg relative"
               style={{
-                backgroundImage: `url('https://api.builder.io/api/v1/image/assets/TEMP/3cd30b5b4311ad00aebae57d82bdcdfaa05274a6?width=2208')`,
+                backgroundImage: `url('/images/portfolio/2.webp')`,
               }}
             >
               <div className="absolute inset-0 bg-black bg-opacity-40 rounded-lg"></div>
@@ -543,9 +546,9 @@ const HomePage = () => {
                   Ready to Get Started?<br />
                   Schedule your free consultation and receive your personalized event planning proposal.
                 </p>
-                <button className="btn-primary">
-                  <span>Contact Us</span>
-                </button>
+                <Link to="/contact" className="btn-primary">
+                  <span>Request a Quote</span>
+                </Link>
               </div>
             </div>
           </div>
@@ -557,10 +560,10 @@ const HomePage = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="grid grid-cols-2 gap-4">
-              <img src="https://api.builder.io/api/v1/image/assets/TEMP/640caa69b0991497c531da48bf9e6a6b24d72f06?width=706" alt="Happy client 1" className="w-full h-64 object-cover rounded-lg" />
-              <img src="https://api.builder.io/api/v1/image/assets/TEMP/8d1b78e6f683aae13d577b5af00f5af20c97890e?width=706" alt="Happy client 2" className="w-full h-64 object-cover rounded-lg" />
+              <img src="/images/portfolio/Corporate-event-planner.jpg" alt="Happy client 1" className="w-full h-64 object-cover rounded-lg" />
+              <img src="/images/portfolio/corporate.webp" alt="Happy client 2" className="w-full h-64 object-cover rounded-lg" />
               <div className="col-span-2">
-                <img src="https://api.builder.io/api/v1/image/assets/TEMP/edb38ef5ac318ea8eaf0719a11bb81671c3e2c86?width=1432" alt="Happy clients" className="w-full h-64 object-cover rounded-lg" />
+                <img src="/images/portfolio/wedding-event.jpg" alt="Happy clients" className="w-full h-64 object-cover rounded-lg" />
               </div>
             </div>
             
@@ -578,7 +581,7 @@ const HomePage = () => {
                   <p className="text-lg italic mb-4 font-gotham">
                     "Casaluce Events transformed our wedding into a fairytale. Every detail was taken care of, leaving us to simply enjoy our day. We couldn't have asked for more!"
                   </p>
-                  <p className="text-sm uppercase tracking-widest font-gotham">-CLIENT NAME</p>
+                  <p className="text-sm uppercase tracking-widest font-gotham">— Sarah & Daniel</p>
                   <hr className="border-white my-4 w-32" />
                 </div>
                 
@@ -586,7 +589,7 @@ const HomePage = () => {
                   <p className="text-lg italic mb-4 font-gotham">
                     "The professionalism and creativity Casaluce Events brought to our annual conference were outstanding. From planning to execution, everything was flawless."
                   </p>
-                  <p className="text-sm uppercase tracking-widest font-gotham">-CLIENT NAME</p>
+                  <p className="text-sm uppercase tracking-widest font-gotham">— Horizon Tech</p>
                   <hr className="border-white my-4 w-32" />
                 </div>
                 
@@ -594,7 +597,7 @@ const HomePage = () => {
                   <p className="text-lg italic mb-4 font-gotham">
                     "Thanks to Casaluce Events, our family reunion was an absolute joy. The attention to detail and personal touches made it a day we will always cherish."
                   </p>
-                  <p className="text-sm uppercase tracking-widest font-gotham">-CLIENT NAME</p>
+                  <p className="text-sm uppercase tracking-widest font-gotham">— The Williams Family</p>
                 </div>
               </div>
               
@@ -611,7 +614,7 @@ const HomePage = () => {
         <div className="w-full max-w-[969px] mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-6xl font-normal mb-6 text-charcoal font-seasons-light">
-              Frequently Asked Questions <span className="font-forum">(</span>FAQs<span className="font-forum">)</span>
+              Frequently Asked Questions
             </h2>
             <p className="text-lg md:text-xl uppercase tracking-widest text-center mb-8 text-charcoal font-gotham">
               All You Need to Know About Our Event Planning Services
@@ -623,7 +626,7 @@ const HomePage = () => {
             <div className="flex gap-8 items-center">
               <div className="w-[237px] flex-shrink-0">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/8b7e289ce91efbbe641f2c2f709509a79da8e3fd?width=839"
+                  src="/images/portfolio/1.webp"
                   alt="FAQ Image 1"
                   className="w-full h-[200px] object-cover"
                 />
@@ -631,7 +634,7 @@ const HomePage = () => {
               <div className="flex-1 border border-[#737373] p-6 h-[200px] flex flex-col justify-center">
                 <h3 className="text-base font-bold mb-3 text-charcoal font-gotham">Q: How early should I contact you to start planning my event?</h3>
                 <p className="text-charcoal text-sm leading-relaxed font-gotham">
-                  A: Ideally, we recommend reaching out at least [X months] before your event. This timeframe allows us to secure the best venues and vendors, and to plan each detail meticulously. However, we can also accommodate shorter timelines depending on the complexity and scale of your event.
+                  A: Ideally, reach out 6–12 months before your event. This timeframe allows us to secure the best venues and vendors, and to plan each detail meticulously. However, we can also accommodate shorter timelines depending on the complexity and scale of your event.
                 </p>
               </div>
             </div>
@@ -663,7 +666,7 @@ const HomePage = () => {
               </div>
               <div className="w-[237px] flex-shrink-0">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/59cccaa3238ee3bc607f64bce3b2b5c047379a9c?width=839"
+                  src="/images/portfolio/2.webp"
                   alt="FAQ Image 2"
                   className="w-full h-[200px] object-cover"
                 />
@@ -691,7 +694,7 @@ const HomePage = () => {
             <div className="flex gap-8 items-center">
               <div className="w-[237px] flex-shrink-0">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/5d48b1e56bfb2f679484c6d71c6c9f849c517860?width=839"
+                  src="/images/portfolio/3.webp"
                   alt="FAQ Image 3"
                   className="w-full h-[200px] object-cover"
                 />
@@ -714,7 +717,7 @@ const HomePage = () => {
               </div>
               <div className="w-[237px] flex-shrink-0">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/fbc4734a8e8d964fc9aba2d30938c0bc133c695a?width=839"
+                  src="/images/portfolio/Corporate-event-planner.jpg"
                   alt="FAQ Image 4"
                   className="w-full h-[200px] object-cover"
                 />
@@ -746,7 +749,7 @@ const HomePage = () => {
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
                 </div>
-                <span className="text-sm font-gotham">1234-567-890</span>
+                <span className="text-sm font-gotham">(818) 277-7235</span>
 
                 <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center ml-8">
                   <svg className="w-5 h-5 text-sage" fill="currentColor" viewBox="0 0 20 20">
@@ -754,7 +757,7 @@ const HomePage = () => {
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                   </svg>
                 </div>
-                <span className="text-sm font-gotham">info@youremail.com</span>
+                <span className="text-sm font-gotham">christopher@casaluceevents.com</span>
               </div>
             </div>
 
@@ -763,7 +766,7 @@ const HomePage = () => {
               {/* Image at top */}
               <div className="mb-0">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/08adf92c61f98f378481b6c74fcb2a1a03c1cf48?width=972"
+                  src="/images/portfolio/corporate2.jpeg"
                   alt="Contact Us"
                   className="w-full h-[150px] object-cover"
                 />
@@ -805,24 +808,30 @@ const HomePage = () => {
         <div className="bg-brown py-6">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-between items-center">
-              <div className="flex space-x-6 mb-4 md:mb-0">
-                <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
-                  <svg className="w-5 h-5 text-brown" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.042-3.441.219-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.888-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.357-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001 12.017 0z"/>
-                  </svg>
-                </a>
-                <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
-                  <svg className="w-5 h-5 text-brown" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                  </svg>
-                </a>
-                <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
-                  <svg className="w-5 h-5 text-brown" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
-                  </svg>
-                </a>
+              <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 mb-4 md:mb-0">
+                <div className="flex space-x-6">
+                  <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
+                    <svg className="w-5 h-5 text-brown" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.042-3.441.219-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.888-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.357-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001 12.017 0z"/>
+                    </svg>
+                  </a>
+                  <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
+                    <svg className="w-5 h-5 text-brown" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                  </a>
+                  <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
+                    <svg className="w-5 h-5 text-brown" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                    </svg>
+                  </a>
+                </div>
+                <div className="flex space-x-6 whitespace-nowrap">
+                  <a href="/privacy-policy" className="text-white text-sm hover:text-sage transition-colors font-gotham whitespace-nowrap">Privacy Policy</a>
+                  <a href="/terms-and-conditions" className="text-white text-sm hover:text-sage transition-colors font-gotham whitespace-nowrap">Terms and Conditions</a>
+                </div>
               </div>
-              
+
               <div className="text-center md:text-right">
                 <p className="text-white text-sm uppercase tracking-widest font-gotham">
                   <span>Casaluce Events - </span>

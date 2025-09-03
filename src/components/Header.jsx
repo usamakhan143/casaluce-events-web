@@ -8,10 +8,6 @@ const Header = ({ activePage }) => {
     { path: '/', label: 'HOME', key: 'home' },
     { path: '/about', label: 'ABOUT US', key: 'about' },
     { path: '/services', label: 'SERVICES', key: 'services' },
-    { path: '/portfolio', label: 'PORTFOLIO', key: 'portfolio' },
-    { path: '/how-we-work', label: 'HOW WE WORK', key: 'how-we-work' },
-    { path: '/packages', label: 'PACKAGES', key: 'packages' },
-    { path: '/testimonials', label: 'TESTIMONIAL', key: 'testimonials' },
     { path: '/faq', label: 'FAQ', key: 'faq' },
     { path: '/contact', label: 'CONTACT', key: 'contact' }
   ];

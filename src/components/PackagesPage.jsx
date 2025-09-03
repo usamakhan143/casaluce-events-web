@@ -102,9 +102,9 @@ const PackagesPage = () => {
               <div className="text-center">
                 <p className="text-black text-sm mb-4 font-gotham">Starting from</p>
                 <p className="text-white text-2xl font-bold mb-6 font-gotham">Contact for Quote</p>
-                <button className="btn-primary w-full">
+                <Link to="/contact" className="btn-primary w-full">
                   Learn More
-                </button>
+                </Link>
               </div>
             </div>
             
@@ -153,9 +153,9 @@ const PackagesPage = () => {
               <div className="text-center">
                 <p className="text-black text-sm mb-4 font-gotham">Starting from</p>
                 <p className="text-white text-2xl font-bold mb-6 font-gotham">Contact for Quote</p>
-                <button className="btn-primary w-full">
+                <Link to="/contact" className="btn-primary w-full">
                   Learn More
-                </button>
+                </Link>
               </div>
             </div>
             
@@ -203,9 +203,9 @@ const PackagesPage = () => {
               <div className="text-center">
                 <p className="text-black text-sm mb-4 font-gotham">Starting from</p>
                 <p className="text-white text-2xl font-bold mb-6 font-gotham">Contact for Quote</p>
-                <button className="btn-primary w-full">
+                <Link to="/contact" className="btn-primary w-full">
                   Learn More
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -214,9 +214,9 @@ const PackagesPage = () => {
             <p className="text-white text-lg mb-6 font-gotham">
               All packages can be customized to meet your specific needs and budget requirements.
             </p>
-            <button className="btn-primary">
+            <Link to="/contact" className="btn-primary">
               <span>Schedule Free Consultation</span>
-            </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -455,9 +455,9 @@ const PackagesPage = () => {
               <p className="text-charcoal text-base md:text-lg mb-6 font-gotham">
                 All packages can be customized to meet your specific needs and budget requirements.
               </p>
-              <button className="btn-outline">
+              <Link to="/contact" className="btn-outline">
                 <span>Compare Packages in Detail</span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -640,12 +640,12 @@ const PackagesPage = () => {
               Schedule your complimentary consultation to explore our packages in detail and receive a personalized recommendation based on your specific event needs and budget.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
-              <button className="btn-outline">
+              <Link to="/contact" className="btn-outline">
                 <span>Schedule Free Consultation</span>
-              </button>
-              <button className="btn-outline">
+              </Link>
+              <Link to="/contact" className="btn-outline">
                 <span>Contact Us for Custom Quote</span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

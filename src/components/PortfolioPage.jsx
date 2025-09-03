@@ -326,12 +326,12 @@ const PortfolioPage = () => {
               Each event we plan is a unique journey, and this portfolio is just a glimpse into the possibilities that await with Casaluce Events. Let these moments inspire you, and imagine what we can create together for your next event.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
-              <button className="btn-primary">
+              <Link to="/contact" className="btn-primary">
                 <span>Start Planning Your Event</span>
-              </button>
-              <button className="btn-primary">
+              </Link>
+              <Link to="/contact" className="btn-primary">
                 <span>Schedule a Consultation</span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

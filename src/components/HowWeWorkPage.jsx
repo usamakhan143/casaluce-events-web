@@ -434,12 +434,12 @@ const HowWeWorkPage = () => {
               Our proven process ensures your event will be everything you've envisioned and more. Schedule your complimentary consultation to begin this exciting journey with us.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
-              <button className="btn-outline">
+              <Link to="/contact" className="btn-outline">
                 <span>Schedule Free Consultation</span>
-              </button>
-              <button className="btn-outline">
+              </Link>
+              <Link to="/services" className="btn-outline">
                 <span>Learn About Our Services</span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
